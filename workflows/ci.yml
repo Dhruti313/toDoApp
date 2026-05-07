@@ -1,10 +1,10 @@
 name: CI
+
 #"on"  triggers the workflow, whenever someone tries to push code to the main branch this workflow will be executed
 on:
   push:
     branches: [ main, master ]
 
-    branches: [ main, master ]
 #jobs means runner on which job will run
 jobs:
   build:
